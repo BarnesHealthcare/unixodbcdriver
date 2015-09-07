@@ -1,0 +1,21 @@
+{
+    "name": "barneshealthcare/unixodbcdriver",
+    "description": "Laravel 5.1 ODBC Driver for unixodbc",
+    "keywords": ["unixodbc", "odbc", "driver", "laravel", "5.1"],
+    "authors": [
+        {
+            "name": "Jackson Dean",
+            "email": "jldean2011@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "laravel/framework": "5.1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Barneshc\\UnixODBCDriver": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
