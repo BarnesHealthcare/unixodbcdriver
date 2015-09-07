@@ -12,12 +12,12 @@ To Install this in your Laravel 5.1 app, open composer.json and add:
 
 ```json
  "require": {
-        "barneshealthcare/odbc-driver": "dev-master"
+        "barneshealthcare/unixodbcdriver": "dev-master"
     },
     "repositories" : [
         {
             "type": "git",
-            "url": "git@github.com:BarnesHealthcare/odbc-driver.git"
+            "url": "git@github.com:BarnesHealthcare/unixodbcdriver.git"
         }
     ],
 ```
