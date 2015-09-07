@@ -31,7 +31,7 @@ class ODBCConnector extends Connector implements ConnectorInterface
     {
 
         $options = $this->getOptions($config);
-        dd('hello');
+        
         return $this->createConnection("odbc:{$config['dsn']}", $config, $options);
     }
 
