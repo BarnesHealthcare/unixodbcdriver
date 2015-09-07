@@ -41,7 +41,7 @@ Be sure to add the odbc driver with connection information to the `connections` 
         'odbc' => [
             'driver' => 'odbc',
             'dsn' => 'MyDSNName',
-            'grammar' => 'DB2',
+            'grammar' => 'SQLServerGrammar',
             'username' => 'foo',
             'password' => 'bar',
             'database' => '',
